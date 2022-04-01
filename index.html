@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Web Page</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <script>
+            console.log('hello world!');
+        </script>
+       <title>Mrs. Lynn's Mad Libs</title>
+     <link rel="stylesheet" href="style.css">
+   
+      </head>
+    <body style="background-color:#ab5ff4;">
+    
+        <h1>And we will leave.. </h1>
+            the  <span id="ord"> </span> chairs to those who say we can't sit there  <br>
+            We're <span id="emotAdj"></span> all by ourselves <br>
+            So hey, we brought our drums and this is how we  <span id="proPlNoun"> </span>  <br>
+            No mistakin', we make our breaks, if you don't like our  <span id="nounPeop1"></span> <br>
+            Then leave us,  <span id="supHer"></span> 'cause we don't need your policies<br><br>
+           
+            
+            Find me where the <span id="proNoun"> </span> things are </span><br>
+            I lose my balance on these <span id="rhyIng"></span>, you tell me to <span id="rhyIng2"></span> I'd rather be a wild <span id="rhyPow2"> instead </span><br>
+         
+
+        <h1>Wild Things- Original</h1>
+       And we will leave the empty chairs to those who say we can't sit there
+We're fine all by ourselves
+So hey, we brought our drum and this is how we dance
+No mistakin', we make our breaks, if you don't like our 808s
+Then leave us alone, 'cause we don't need your policies
+ </script></body>
+
+      <script>
+        //Build the prompts and set them equal to variables so can use them later.
+           
+        var one = document.getElementById("ord");
+        var two = document.getElementById("emotAdj");
+        var three = document.getElementById("proPlNoun");
+        var four = document.getElementById("nounPeop1");
+        var five = document.getElementById("supHer");
+        var six = document.getElementById("proNoun");
+        var eight = document.getElementById("rhyIng");
+        var nine = document.getElementById("rhyIng2");
+        var ten = document.getElementById("rhyPow2");
+        var eleven = document.getElementById("ord2");
+        var twelve = document.getElementById("termWacky");
+        var thirteen = document.getElementById("placeProNoun2");
+    
+
+
+        var prOrd=prompt("Describe an amount such as empty, full, etc");
+        var prEmotAdj=prompt("List a mood");
+        var prProPlNoun=prompt("Think of a verb with no ly or ing ending.");
+        var prNounPeop1=prompt("List a noun.");
+        var prSupHer = prompt("Think of a adjective .");
+        var prProNounMan=prompt("Think of another adjective!");
+        var prProNoun2=prompt("List your favorite food plural.");
+        var prRhyIng = prompt("Name any verb that describes what you can do with food'");
+        var prTermWacky = prompt("Think of your favorite animal");
+
+        one.innerHTML = prOrd;
+        two.innerHTML = prEmotAdj;
+        three.innerHTML = prProPlNoun;
+        four.innerHTML = prNounPeop1;
+        five.innerHTML = prSupHer;
+        six.innerHTML = prProNounMan;
+        eight.innerHTML = prProNoun2;
+        nine.innerHTML = prRhyIng;
+        ten.innerHTML = prTermWacky;
+        
+        </script>
+</html>
+
+    
+</html>
